@@ -1,12 +1,9 @@
 import base64
-import json
 from fastapi import FastAPI
 import tensorflow as tf
-import cv2
 import numpy as np
 from pydantic import BaseModel
-import uvicorn
-import time
+
 import os
 from PIL import Image, ImageOps
 
